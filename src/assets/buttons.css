@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.opciones{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Para ocupar al menos el 100% de la altura de la pantalla */
+    text-align: center;
+  
+  }
+  
+
+
+button{
+    background-color: rgb(255, 255, 255);
+    border:1px red solid;
+    width: 90%;
+    padding: 39px;
+    font-size: 33px;
+}
+
+a{
+    
+}
