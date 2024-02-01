@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: antiquewhite;
-}
+/* body {
+    background-image:url('/src/assets/sol.gif');
+    background-size: 100%;
+    background-size: 60%;
+    background-position: center;    
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+} */

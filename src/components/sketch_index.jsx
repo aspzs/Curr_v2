@@ -6,11 +6,11 @@ const MySketch = () => {
   let slowEllipseY = 0;
 
   const setup = (p5, canvasParentRef) => {
-    p5.createCanvas(window.innerWidth, window.innerHeight).parent(canvasParentRef).position(0, 0).style('z-index', '-1');
+    p5.createCanvas(window.innerWidth, window.innerHeight).parent(canvasParentRef).position(0, 0).style('z-index', '-3');
   };
 
   const draw = (p5) => {
-    p5.background(5);
+    p5.background(255);
     let gridSize = window.innerWidth / 10;
 
     for (let x = -gridSize; x <= p5.width + gridSize; x += gridSize) {

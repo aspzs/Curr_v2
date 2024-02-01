@@ -3,24 +3,23 @@
 @tailwind utilities;
 
 .opciones{
-    display: grid;
-    align-items: center;
+  align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Para ocupar al menos el 100% de la altura de la pantalla */
     text-align: center;
-  
   }
   
 
 
 button{
+  display: inline-block;
     background-color: rgb(255, 255, 255);
     border:1px red solid;
-    width: 90%;
-    padding: 39px;
-    font-size: 33px;
+    opacity: 0.7;
+    width: 30%;
+    font-size: 23px;
 }
 
 a{
+  color: black;
     
 }
